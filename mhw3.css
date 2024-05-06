@@ -1,0 +1,1093 @@
+body{
+    margin: 0;
+}
+
+header{
+    margin-bottom: 97,7px;
+}
+
+@media (max-width: 500px) {
+    nav {
+        width: 50%;
+    }
+}
+
+nav{
+    display: block;
+    background-color: rgb(7, 33, 70);
+    width: 100%;
+    height: 88px;
+    position: fixed;
+    top:0;
+    z-index: 3;
+}
+
+#containernav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1176px;
+    height: 100%;
+    margin: 0px 171.6px;
+}
+
+#navitem1 {
+    padding: 0px 16px;
+    width: 133.475px;
+    height: 100%;
+}
+
+#img0{
+    display: inline-block;
+    height: 40px;
+    position: relative;
+    top: 22px;    
+}
+
+#navitem2{
+    display: flex;
+    width: 403.688px;
+    height: 100%;
+    align-items: center;
+}
+
+.opzione1{
+    width: 98.800px;
+    height:52px;
+}
+
+.opzione1 a{
+    display: inline-block;
+    width: 66.8px;
+    height: 24px;
+    padding: 14px 0px;
+    margin-left: 24px;
+    margin-right: 8px;
+    color: #F8CD51;
+    font-family: "BentonSansBBVA-Medium" ,Helvetica;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+}
+
+#imgprofilo{
+    width: 22px;
+    margin: 0;
+    padding: 0;
+    color: #F8CD51; 
+}
+
+.opzione2 {
+    width: 166.488px;
+    height:52px;
+}
+
+.opzione2 a{  
+    display: inline-block;  
+    background-color:#028484;
+    border: 1px;
+    width: 86.487px;
+    height: 24px;
+    padding: 14px 24px;
+    margin-left: 24px;
+    margin-right: 8px;
+    color: white;
+    font-family: "BentonSansBBVA-Book",Helvetica;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.opzione3{
+    width: 52px;
+    height:39.2px;
+}
+
+.opzione3 a{
+    display: inline-block;
+    width: 20px;
+    height: 23.200px;
+    padding: 8px;
+    margin: 0px 8px;
+    color: white;
+}
+
+.Imgbarra{
+    width: 24px;
+    height: 24px;
+    fill:white
+}
+
+.opzione4{
+    width: 86.4px;
+    height:88px;
+    color: white;
+    z-index: 5;
+    text-align: center;
+    margin-top: 6%;
+    font-family: "BentonSansBBVA-Book",Helvetica;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+#containernav2 {
+    width: 100%;
+    height: 72px;
+    background-color: #004481;
+    z-index: 3;
+}
+
+#contenitorebarra {
+    width: 1160px;
+    height: 100%;
+    align-items: center;
+    margin: 0px 171.6px;
+    color: white;
+    padding: 0px 8px;
+
+}
+#barradiricerca 
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 2px 24px 48px;
+}
+
+.input #cerca{
+    display: inline;
+    height:100%;
+    width: 1100px;
+    background-color: #004481;
+    border: none;
+    color: white;
+    font-family: 'BentonSansBBVA-Book', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 12px;
+
+}
+
+.hidden{
+    display: none;
+}
+
+
+@media (max-width: 500px) {
+    #flex-container1 {
+        flex-direction: column ;
+    }
+}
+
+#flex-container1{
+    display: flex;
+    height: 594,59px;
+    width: 100%;
+    background-color:#043263 ;
+    position: relative;
+    top: 88px;
+}
+
+div.meta{
+    display: flex;
+    width: 50%;
+    height: 100%;
+}
+
+.info{
+    width: 100%;
+    height: 100%;
+    padding: 0px 16px 80px 16px;
+    margin-top: 80px;
+    margin-left: 196px;
+}
+
+#p1{
+    font-size: 15px;
+    font-weight:bold;  
+    color: #5ac4c4;
+    font-family: "BentonSansBBVA-Book", Helvetica;
+    line-height: 24px;
+    margin-top: 0px;
+    margin-bottom: 0px; 
+    padding: 0px;
+    border: 0px;
+}
+
+.lista{
+    color: white;
+    padding-left: 16px;
+    margin: 8px 0px 8px 24px;
+    font-size: 18px;
+    font-family: "BentonSansBBVA-Book", Helvetica;
+}
+
+#p2{
+    color: white;
+    margin:16px 0px;
+    font-size: 18px;
+    font-family: "BentonSansBBVA-Book", Helvetica;
+    padding-bottom: 40px;
+}
+
+#bianco{
+    font-size: 40px;
+    font-weight:700;  
+    color: white;
+    font-family: "BentonSansBBVA-Bold", Helvetica;
+    line-height: 48px;
+    margin-top: 0px;
+    margin-bottom: 0px; 
+    padding: 0px;
+    border: 0px;
+}
+#giallo{
+    font-size: 40px;
+    font-weight:700;  
+    font-family: "BentonSansBBVA-Bold", Helvetica;
+    line-height: 48px;
+    margin-top: 0px;
+    margin-bottom: 16px; 
+    padding: 0px;
+    border: 0px; 
+    color: #F8CD51;
+}
+
+#azioni{
+    width: 100%;
+    height: 56px;
+}
+
+#azione1{
+    display: inline-block;
+    background-color:#028484;
+    border: 1px;
+    color: white;
+    font-family:"BentonSansBBVA-Medium", Helvetica;
+    font-size: 15px;
+    line-height: 24px;
+    padding: 16px 32px;
+    margin-right: 32px;
+}
+
+#azione2{
+    display: inline-block;  
+    width: 117.450px;
+    height: 27.2px;
+    color: #5BBEFF;
+    font-family: "BentonSansBBVA-Medium" ,Helvetica;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: left;
+}
+
+#azione2 img{
+    width: 20px;
+    margin: 0;
+    padding: 0; 
+}
+
+div.colonnaBlu {
+    width: 50%;
+    height: 100%;
+    
+}
+
+.colonnaBlu img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#container1{
+    width: 100%;
+    background-color:white;
+    height: 587.4px;
+    margin-top: 88px;
+}
+
+@media (max-width: 500px) {
+    #flex-container2 {
+        flex-direction: column;
+    }
+}
+#flex-container2{
+    background-color:white;
+    display:flex;
+    height:100%;
+    width: 1176px;
+    margin: 0px 171.6px;
+    align-items: center;
+    
+}
+
+div.colonnaBianca1{
+    width: 100%;
+}
+
+div.colonnaBianca2{
+    width: 100%;
+    height: 427.400px;
+    padding: 80px 0px;
+    margin-left: 101.6px;
+    margin-right: 16px;
+    color: black;
+  }
+
+.img{
+    width:100%;
+    height: 100%;
+}
+
+.titolocontainer{
+    font-size: 26px;
+    font-family: "BentonSansBBVA-Medium", Helvetica;
+    line-height: 32px;
+    margin: 0px 0px 24px 0px;
+}
+
+.saldo{
+    margin: 0px 0px 16px 8px;
+    padding-left: 16px;
+    font-family: "BentonSansBBVA-Medium", Helvetica;
+}
+
+#utile{
+    width: 100%;
+    margin-top: 40px;
+}
+
+.tconto{
+    display: inline-block;  
+    background-color:#028484;
+    border: 1px;
+    width: 86.487px;
+    height: 24px;
+    padding: 16px 32px;
+    color: white;
+    font-family: "BentonSansBBVA-Book",Helvetica;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+#img2{
+    width: 100%;
+    height: 100%;
+}
+#sezione1{
+    width: 100%;
+    background-color:#072146;
+    height: 522.55px;
+}
+#container2{
+    width: 1176px;
+    background-color:#072146;
+    height: 100%;
+    margin: 0px 171.6px;
+}
+
+@media (max-width: 500px) {
+    #flex-container3 {
+        flex-direction: column;
+    }
+}
+
+#flex-container3{
+    background-color:#072146;
+    display:flex;
+    height:522.55px;
+    width: 1176px;
+    align-items: center;
+}
+
+#azioni2{
+    margin-top: 40px;
+    width: 100%;
+    height: 56px;
+}
+
+#azione11{
+    display: inline-block;
+    background-color:#028484;
+    border: 1px;
+    color: white;
+    font-family:"BentonSansBBVA-Medium", Helvetica;
+    font-size: 15px;
+    line-height: 24px;
+    padding: 16px 32px;
+}
+
+
+
+div.colonnaBlu1{
+    width: 100%;
+    height: 362.550px;
+    padding: 80px 0px;
+    margin-right: 101.6px;
+    margin-left: 16px;
+    color: white;
+}
+
+div.colonnaBlu2{
+    width: 100%;
+}
+  
+#img3{
+    width:100%;
+    height: 100%;
+    background-color: #072146;
+}
+
+#container3{
+    width: 100%;
+    background-color: white;
+    height: 536.175px;
+    padding:88px 0px;
+}
+
+#containerapp{
+    width: 1176px;
+    background-color: white;
+    height: 488.18px;
+    margin: 0px 171.6px;
+}
+
+@media (max-width: 500px) {
+    #flex-container4 {
+        flex-direction: column;
+    }
+}
+
+#flex-container4{
+    display: flex;
+    width: 1080px;
+    background-color: white;
+    height: 368.18px;
+    margin-top: 72px;
+    margin-bottom: 48px;
+    padding: 0px 48px;
+}
+
+#flex-container4 h3{
+    font-size: 22px;
+    line-height: 32px;
+    font-family: "BentonSansBBVA-Medium",Helvetica;
+    margin: 8px 0px 16px 0px;
+    color: black;
+}
+
+#flex-container4 p{
+    margin: 0px;
+    color:#626262;
+}
+
+#titoloapp{
+    font-size: 40px;
+    font-weight:bold;  
+    color: #004481;
+    text-align: center;
+    font-family: "BentonSansBBVA-Bold", Helvetica;
+    font-style: strong;
+    line-height: 48px;
+    margin-top: 0px;
+    margin-bottom: 0px; 
+    padding: 0px;
+    border: 0px;
+}
+
+#flex-container5{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 368.18px;
+    width:  238px;
+    margin-bottom: 48px;
+    margin-right: 32px;    
+}
+
+#flex-container5d{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height:368.18px;
+    width:238px;
+    margin-bottom: 48px;
+    margin-left: 32px;    
+}
+
+@media (max-width: 500px) {
+    #flex-containerfoto {
+        flex-direction: column;
+    }
+}
+
+#flex-containerfoto{
+    display: flex;
+    height: 360.18px;
+    width: 540px;
+}
+
+div.appinfosinistrosup{
+    width: 238px;
+    height:178.8px;
+    padding-bottom: 20px;
+}
+
+div.appinfosinistro{
+    width: 238px;
+    height:179.2px; 
+}
+
+div.appinfodestrosup{
+    width: 238px;
+    height:179.2px;
+    padding-bottom: 20px;
+}
+
+
+div.appinfodestro{
+    width: 238px;
+    height:179.2px;
+}
+
+
+#img4{
+    width:100%;
+    height:100%;
+}
+
+#container4{
+    width: 100%;
+    background-color:#D4EDFC;
+    height: 490.55px;
+}
+
+@media (max-width: 500px) {
+    #flex-container6 {
+        flex-direction: column;
+    }
+}
+#flex-container6{
+    background-color:#D4EDFC;
+    display:flex;
+    height:100%;
+    width: 1176px;
+    margin:0px 171.6px;
+}
+
+div.colonnaChiara1{
+    width: 100%;
+    padding: 80px 0px;
+    margin-right: 101.6px;
+    margin-left: 16px;
+    color: black;
+  }
+
+div.colonnaChiara2{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+#img5{
+    width:100%;
+    height: 100%;
+}
+
+#container5{
+    width: 100%;
+    background-color:white;
+    height: 477.55px;
+}
+
+@media (max-width: 500px) {
+    #flex-container7 {
+        flex-direction: column;
+    }
+}
+
+#flex-container7{
+    background-color:white;
+    display:flex;
+    height:100%;
+    width: 1176px;
+    margin:0px 171.6px;
+}
+
+div.colonnaBianca11{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+div.colonnaBianca22{
+    width: 100%;
+    padding: 80px 0px;
+    margin-left: 101.6px;
+    margin-right: 16px;
+    color:#121212;
+  }
+
+#p3{
+    margin: 16px 0px 16px 0px;
+    padding-left: 16px;
+    font-family: "BentonSansBBVA-Medium", Helvetica;
+}
+
+.link{
+    display: inline-block;
+    margin-top: 40px;
+    width: 100%;
+    font-family: "BentonSansBBVA-Medium",Helvetica;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: left;
+    color: #1973B8;
+}
+
+.occhio{
+    width: 20px;
+    height: 20px;
+}
+
+#img6{
+    width:100%;
+    height: 100%;
+}
+
+#container6{
+    width: 100%;
+    background-color:#F4F4F4;
+    height: 517.75px;
+}
+
+@media (max-width: 500px) {
+    #flex-container8 {
+        flex-direction: column;
+    }
+}
+
+#flex-container8{
+    background-color:#F4F4F4;
+    display:flex;
+    height:100%;
+    width: 1176px;
+    margin: 0px 171.6px;
+}
+
+div.colonnaGrigia1{
+    width: 100%;
+    padding:80px 0px;
+    margin-right: 101.6px;
+    margin-left: 16px;
+}
+
+div.colonnaGrigia2{
+    width: 100%;
+    color: #121212;
+  }
+
+#img7{
+    width:100%;
+    height: 100%;
+}
+
+
+#container7{
+    width: 100%;
+    background-color:white;
+    height: 646.8px;
+    padding-top: 72px;
+    padding-bottom: 80px;
+}
+
+#divservizi{
+    width: 1176px;;
+    height: 647.200px;
+    margin:0px 171.6px;
+}
+
+#divservizi h3{
+    color: #121212;
+    margin: 0px 0px 8px 0px;
+    font-size: 26px;
+    font-family: "BentonSansBBVA-Medium",Helvetica;
+}
+
+#divservizi p{
+    color: #626262;
+    margin: 0px;
+    font-size: 15px;
+    line-height: 24px;
+    font-family: "BentonSansBBVA-Medium",Helvetica;
+}
+
+.link2{
+    display: inline-block;
+    margin: 0px;
+    width: 100%;
+    font-family: "BentonSansBBVA-Medium",Helvetica;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: left;
+    color: #1973B8;
+}
+
+#titoloservizi{
+    font-size: 36px;
+    color: #121212;
+    text-align: center;
+    font-family: "BentonSansBBVA-Book", Helvetica;
+    line-height: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px; 
+    padding: 0px;
+    border: 0px;
+}
+
+@media (max-width: 500px) {
+    #flex-container9 {
+        flex-direction: column;
+    }
+}
+
+#flex-container9{
+    display: flex;
+    width: 1176px;
+    background-color: white;
+    height: 368.18px;
+    margin-top: 40px;
+    padding-top: 8px;
+    z-index: 1;
+}
+
+.flex-container10{
+    display: flex;
+    flex-direction: column;
+    background-color: #F4F4F4;
+    height: 527.200px;
+    width: 360.240px;
+    margin: 0px 16px 32px 16px;
+}
+
+.servizio2{
+    padding:0px 32px 28px 32px;
+    width: 296px;
+    height: 192px;
+}
+
+.servizio3{
+    padding:0px 32px 28px 32px;
+    width: 296px;
+    height: 27.2px;
+    margin-bottom: 40px;
+}
+
+.img{
+    width:100%;
+    height: 100%;
+}
+
+#img{
+    width:100%;
+    height:100%;
+}
+
+#container8{
+    width: 100%;
+    background-color:white;
+    height: 440px;
+    padding:64px 0px;
+}
+
+#apriconto{
+    height:424px;
+    width:752px;
+    margin:0px 383.6px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#clock{
+    height: 144px;
+    align-items: center;
+    margin:0px 304px;
+}
+
+#titoloiscrizione{
+    font-size: 36px;
+    color: #121212;
+    text-align: center;
+    font-family: "BentonSansBBVA-Medium", Helvetica;
+    line-height: 40px;
+    margin-top: 32px;
+    margin-bottom: 16px; 
+    padding: 0px;
+    border: 0px;
+}
+
+#apriconto h3{
+    font-size: 22px;
+    color: #121212;
+    text-align: center;
+    font-family: "BentonSansBBVA-Book", Helvetica;
+    line-height: 32px;
+    margin-top: 0px;
+    margin-bottom: 24px; 
+    padding: 0px;
+    border: 0px;
+}
+
+#divservizi #prova{
+    align-items: center;
+    position: center;
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    margin-left: 350px ;
+}
+
+button{
+    display: inline;
+   font-family: "BentonSansBBVA-Book",Helvetica;
+   position: center;
+   text-align: center;
+}
+
+section{
+    display: block;
+}
+
+div#flexnascosto{
+    display: flex;
+    flex-direction: column;
+    width: 1176px;
+    height: 200px;
+    margin: 0px 171.600px;
+    padding: 64px 0px 40px 0px;
+}
+
+.colonna{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 262px;
+}
+
+#container9{
+    width: 100%;
+    height: 350px;
+    background-color: white;
+}
+
+#divconto{
+    height: 100%;
+    width: 1176px;
+    margin: 0px 171.6px;
+}
+
+#divconto h3{
+    margin: 0px 0px 40px 0px;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+}
+
+#divconto div#flex-conto{
+    display: flex;
+    width: 100%;
+    height: 208px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.colonnaconto{
+    display: flex;
+    width: 184px;
+    height: 184px;
+    flex-direction: column;
+}
+
+#container11{
+    width: 100%;
+    height: 304px;
+    background-color: #f4f4f4;
+}
+
+#flex-info{
+    display: flex;
+    justify-content:space-between;
+    width: 1176px;
+    height: 200px;
+    margin: 0px 171.6px;
+    padding: 64px 0px 40px 0px;
+}
+
+.finfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.finfo h3.indice{
+    margin: 0px 0px 16px 0px;
+    font-family: 'BentonSansBBVA-Medium', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    color: black;
+}
+
+.finfo h4{
+    margin: 0px 0px 8px 0px;
+    color:  #1973b8;
+}
+
+#container10{
+    width: 100%;
+    height: 350px;
+    background-color: #5ac4c4;
+}
+
+#converter{
+    height: 100%;
+    margin: 0px 400px;;
+    align-items: center;
+}
+
+#converter h1{
+    margin-top: 0px;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 36px;
+    color: #121212;
+    font-family: "BentonSansBBVA-Medium", Helvetica;
+    line-height: 40px;
+}
+
+form{
+    align-items: center;
+    text-align: center;
+}
+
+form select{
+    margin-left: 5px;
+}
+
+#risultato{
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#containeralbum h2{
+    text-align: center;
+    margin-top: 10px;
+    font-family: "BentonSansBBVA-Medium", Helvetica;
+    line-height: 24px;
+}
+
+#album-view {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #album-view .album {
+    margin: 10px;
+    border: 1px solid slategray;
+    padding: 5px;
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #album-view img {
+    max-width: 100%;
+  }
+
+footer{
+    display: block;
+    width: 100%;
+    background-color: #072146;
+    height: 302.2px;
+}
+
+#footercontainer{
+    width: 1146px;
+    height: 183.2px;
+    padding: 40px 24px 80px 24px;    
+    margin: 0px 147.6px;
+}
+
+#flex-container11{
+    display: flex;
+    padding: 0px 16px;
+    width: 100%;
+    height: 40px;
+    justify-content: space-between;
+}
+
+.footerlogo{
+    width: 12%;
+    height: 100%;
+}
+
+.footerlogo img{
+    width: 100%;
+    height: 100%;
+}
+
+.footerlogo2{
+    width: 88%;
+    height: 100%;
+}
+
+#flex-container12{
+    display: flex;
+    padding: 0px 16px;
+    width: 100%;
+    height: 40px;
+    align-items: start;
+    margin: 40px 0px;
+}
+
+#flex-container12 a{
+    margin-right: 40px;
+    font-size: 15px;
+    color: #5BBEFF;
+    text-align: center;
+    font-family: "BentonSansBBVA-Medium", Helvetica;
+    line-height: 24px;
+    padding: 0px;
+    border: 0px;
+}
+
+#flex-container13{
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 16px;
+}
+
+.footercopyright1 p{
+    display: inline;
+    width: 100%;
+    text-align: left;
+    margin:0px 32px 0px 0px;
+    padding: 0;
+    font-family: "BentonSansBBVA-Book", Helvetica;
+    color:white;
+    line-height: 16px;
+    font-size: 13px;
+}
+
+#opportunita{
+    display: inline;
+    width: 100%;
+    text-align: left;
+    margin-right: 0px 32px 0px 0px;
+    padding: 0;
+    font-family: "BentonSansBBVA-Book", Helvetica;
+    color: #2dcccd;;
+    line-height: 16px;
+    font-size: 13px;
+}
